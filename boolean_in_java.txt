@@ -1,0 +1,12 @@
+boolean b = (m1==m);
+        switch(b)
+        {
+            case true: System.out.println("They are indicating same location..");
+            break;
+            case false: System.out.println("They are not indicating same location..");
+            break;
+        }
+
+এইটা জাভাতে পসিবল না। জাভা এই ধরণের ফিচার রাখে নাই।
+আবার জাভা হচ্ছে স্ট্রংলি টাইপ ল্যাংগুয়েজ যার ফলে আমরা boolean  কে int e convert  করতে পারবো না। কিন্তু  C and C++ এই লজিক allow করে
+আমাদেরকে এই ক্ষেত্রে if else statement  ব্যবহার করতে হবে।
