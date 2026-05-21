@@ -1,0 +1,27 @@
+1. public class Check1 {
+    static int x;
+    public static void main(String[] args)
+    {
+        
+        System.out.println("value of x: " + x);
+    }
+}
+2. public class Check1 {
+    int x;
+    public static void main(String[] args)
+    {
+        
+        System.out.println("value of x: " + x);
+    }
+}
+
+3. public class Check1 {
+public static void main(String[] args)
+{
+int x;
+System.out.println("value of x: " + x);
+}
+
+These three code is looks like same but they are not same. first one will show you result of x equal 0.
+Second and Third one will give you an exception and the message will see you like s has not been initialized.
+
