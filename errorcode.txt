@@ -1,0 +1,33 @@
+import java.util.*;
+import java.io.*;
+
+public class Solution{
+    public static void main(String []argh){
+        Scanner in = new Scanner(System.in);
+        int t=in.nextInt();
+        int a = 0, b = 0, n= 0, e= 0, f = 0, m = 0;
+        
+            a = in.nextInt();
+           b = in.nextInt();
+           n = in.nextInt();
+           e = in.nextInt();
+           f = in.nextInt();
+           m = in.nextInt();
+        
+        int c = 2;
+        int res = a + b;
+        int pes = e + f;
+        for(int i = 1; i< n; i++ ) {
+            c = c * 2;
+            res = res + c * b;
+            System.out.print(res + " ");
+        }
+        c = 2;
+        for(int i = 1; i< m; i++ ) {
+            c = c * 2;
+            pes = pes + c * f;
+            System.out.print(pes + " ");
+        }
+        in.close();
+    }
+}
