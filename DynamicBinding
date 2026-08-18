@@ -1,0 +1,31 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+
+
+class A {
+    public static void print() {
+        System.out.println("A class!");
+    }
+}
+class B {
+    public static void print(){
+        System.out.println("B class!");
+    }
+}
+
+class C extends B{
+    @Override
+     void print(){
+         System.out.println("C class!");
+     }
+}
+public class DynamicBinding {
+    public static void main(String args[]) {
+        A a = new A();
+        B b = new B();
+        a.print();
+        b.print();
+    }
+}
